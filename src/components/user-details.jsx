@@ -5,7 +5,7 @@ const UserDetail = ({ user }) => {
 
   return (
     <div>
-      <h2>User Details</h2>
+      <h2>User Details 2</h2>
       <p>
         <strong>Name:</strong> {user.name}
       </p>
