@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Podaci o korisniku:</h1>
+      <h1>Podaci o korisniku: promjena</h1>
       <UserForm onSubmit={fetchUser} />
       {error && <p>{error}</p>}
       <UserDetail user={user} />
